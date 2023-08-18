@@ -1,0 +1,22 @@
+body{
+background-color: rgb(212, 212, 212);
+}
+
+#produto{
+font-family: Arial, Helvetica, sans-serif;
+font-size: xx-large;
+text-align: center;/*para deixar o texto no centro*/
+display: flex;/*para deixar o texto no centro*/
+justify-content: center;/*para deixar o texto no centro*/
+margin-top: 35px;
+}
+
+#camisapag6{
+    position: absolute;
+    width: 175px;
+    height: 175px;
+    left: 35px;
+    bottom: 215px;
+    -webkit-user-drag: none; /*impede o usuário de selecionar e copiar um elemento na página da web.*/
+
+    }
